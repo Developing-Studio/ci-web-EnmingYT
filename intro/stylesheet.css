@@ -1,0 +1,67 @@
+body {
+    font-family: "Font";
+    
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    background-color: rgb(80, 80, 80);
+    height: 50px;
+    width: 100%;
+}
+
+.tabs {
+    margin-block-start: 0;
+    margin-inline-start: 0;
+}
+
+.tabtop {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.mainli {
+    float: left;
+    list-style: none;
+}
+
+.youtube {
+    float: right;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+.tabtopdeco {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.main {
+    margin-top: 50px;
+    margin-left: 20px;
+    
+    
+    height: 400px;
+    overflow: scroll;
+    scrollbar-width: none;
+
+    font-size: 66px;
+}
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "Font";
+    src: url("NIXGONFONTS M 2.0.TTF");
+    src: url("../NIXGONFONTS M 2.0.TTF");
+}
